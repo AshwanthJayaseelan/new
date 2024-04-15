@@ -1,0 +1,207 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .container {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    
+    }
+    
+    .flipkart-icon {
+    margin-right: 10px; /* Adjust margin as needed */
+    }
+    
+    .search-bar {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    background: #f6f6f6;
+    width: 600px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 10px;
+    
+    }
+    
+    .material-icons-outlined {
+    font-family: 'Material Icons Outlined';
+    font-size: 24px; /* Adjust icon size as needed */
+    }
+    
+    .search-input {
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+    height: 100%; /* Ensure input height matches its container */
+    }
+    
+    .user-actions {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    gap: 20px;
+    margin-top: 20px;
+    }
+    
+    .user-actions p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center; /* Align text and icons vertically */
+    }
+    
+    .user-actions .material-icons-outlined {
+    margin-right: 5px; /* Adjust the gap between icon and text */
+    }
+    
+    .user-actions :hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
+    .flipkart-icon :hover{
+        cursor: pointer;
+    }
+    
+    .grocery-icon img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10%;
+    margin-bottom:0;
+    }
+    .grocery-icon p{
+    font-size: 14px;
+    margin-bottom: 25%;
+    margin-left: 12%;
+    }
+    
+    .mobile-icon img{
+    height: 100px;
+    width: 100px;
+    margin-left: 25%;
+    margin-bottom:0;
+    }
+    
+    .mobile-icon p{
+    font-size: 14px;
+    margin-left: 27%;
+    }
+    .container-2{
+    display: flex;
+    margin-left: 6% ;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    }
+    .container-2 img{
+    height: 100px;
+    width: 100px;
+    margin-left: 25%;
+    margin-bottom:0;    
+    }
+    
+    .container-2 p{
+    font-size: 14px;
+    margin-left: 47%;
+    }
+    
+    .slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    }
+    
+    .slides {
+    display: flex;
+    animation: slide-animation 6s infinite; /* Adjust animation duration as needed */
+    }
+    
+    .slide {
+    flex: 0 0 100%;
+    height: 300px; /* Adjust as needed */
+    background-size: cover;
+    }
+    
+    #slide1 {
+    background-image: url('Images/slides/s1.png');
+    }
+    
+    #slide2 {
+    background-image: url('Images/slides/s2.png');
+    }
+    
+    #slide3 {
+    background-image: url('Images/slides/s1.png');
+    }
+    
+    .navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    }
+    
+    .navigation label {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #999;
+    border-radius: 50%;
+    }
+    
+    input[type="radio"] {
+    display: none;
+    }
+    
+    @keyframes slide-animation {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+    }
+    .container-2 :hover{
+        cursor:pointer;
+    }
+    
+    
+    .grocery-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .mobile-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .fashion-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .travel-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .twowheeler-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .applicanes-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .home-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
+    .electronics-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    .toy-icon:hover img {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+    
